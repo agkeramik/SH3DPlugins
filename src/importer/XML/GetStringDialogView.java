@@ -37,7 +37,7 @@ public class GetStringDialogView extends JFrame implements ActionListener {
 
 		field = new JTextField();
 		add(field);
-		saveButton = new JButton("Save");
+		saveButton = new JButton("Import");
 		saveButton.addActionListener(this);
 		cancelButton = new JButton("Cancel");
 		cancelButton.addActionListener(this);
